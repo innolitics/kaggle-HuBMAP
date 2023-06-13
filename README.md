@@ -53,3 +53,15 @@ HuBMAP - Hacking the Human Vasculature (Kaggle Competition)
     - height (cm)
     - weight (kg)
     - bmi
+
+## Annotations
+- Source: `polygons.jsonl`
+- 1633 unique IDs
+- 3 labels:
+    1. blood_vessel
+    2. glomerulus
+    3. unsure
+- produced 1633 segmentations masks with name `mask.tif`
+- sample image with segmentation:
+
+<img src='docs/image_w_seg.png' width='300' style="margin-left: 40px;"/>
