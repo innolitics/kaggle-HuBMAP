@@ -9,7 +9,13 @@ packages = [{include = "kaggle_hubmap"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 kaggle = "^1"
+pandas = "^2"
 
+[tool.poetry.group.dev.dependencies]
+debugpy = "^1"
+flake8 = "^6"
+jupyterlab = "^3"
+pytest = "^7"
 
 [build-system]
 requires = ["poetry-core"]
