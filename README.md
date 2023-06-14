@@ -1,6 +1,12 @@
 # kaggle-HuBMAP
 HuBMAP - Hacking the Human Vasculature (Kaggle Competition)
 
+## Kidney microscopy resources
+- [kidney under a microscope](https://www.youtube.com/watch?v=m-xdxuF4_lE)
+    - glomerulus: "little ball of yarn"
+    - distal convoluted tubules: "open centers"
+    - proximal convoluted tubules: "fluffy centers"
+
 ## Image data overview
 - training:
     - metadata summary csv: `metadata/trn_img_meta_7033.csv`
