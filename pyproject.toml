@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "kaggle-hubmap"
+version = "0.1.0"
+description = ""
+authors = ["Juan Pablo Centeno <jpcenteno@innoliticsl.com>"]
+readme = "README.md"
+packages = [{include = "kaggle_hubmap"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastprogress = "^1"
+kaggle = "^1"
+matplotlib = "^3"
+opencv-python = "^4"
+pandas = "^2"
+pillow = "^9"
+
+[tool.poetry.group.dev.dependencies]
+debugpy = "^1"
+flake8 = "^6"
+jupyterlab = "^3"
+pytest = "^7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
